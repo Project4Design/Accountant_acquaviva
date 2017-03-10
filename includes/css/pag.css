@@ -1,0 +1,26 @@
+body {
+
+	background-image: url(../images/fondo.jpg);
+	background-repeat: no-repeat;
+	/*height: 100vh; asegurar que el body sea a tope de la pantalla */
+	margin: 0;
+
+}
+
+.img-container{
+
+	width: 100%;
+	position: relative;
+}
+
+.img-container img{
+	width: 100%;
+	margin: 0 auto;
+
+}
+@media (max-width: 769px ){
+
+	.timer-area li{
+		margin-bottom: 15px !important;
+	}
+}

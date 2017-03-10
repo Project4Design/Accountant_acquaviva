@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Noticiero Endogeno</title>
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<meta name="Author" content="www.project4design.com.ve , www.p4d.com.ve">
+<meta name="keywords" content="p4d,project4design,acquaviva,john acquaviva,noticias,endogeno,portal,politica,youtube,p4designer">
+<link rel="stylesheet" type="text/css" href="includes/css/bootstrap.min.css">
+<link rel="stylesheet" href="includes/css/normalize.css">
+<link rel="stylesheet" href="includes/css/main.css">
+<link rel="stylesheet" type="text/css" href="includes/css/animate.css">
+<link rel="icon" type="image/png" href="includes/images/rss.png" />
+<link rel="stylesheet" type="text/css" href="includes/css/pag.css">
+<link rel="stylesheet" type="text/css" href="includes/css/styles.css">
+<link rel="stylesheet" type="text/css" href="includes/css/reset.css">
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Rubik+Mono+One" rel="stylesheet">
+<script type="text/javascript" src="includes/js/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="includes/js/countdown.js"></script>
+</head>
+ <body>
+ <div class="container-fluid">
+ <div style="position: absolute;left: -100px; top: -100px;">
+ <a href="www.p4d.com.ve"></a>
+ <a href="www.project4design.com.ve"></a>
+ </div>
+ <div class="row">
+ <div class="col-xs-12 visible-xs">&nbsp;</div>
+	 <div class="col-md-8" >
+		<div class="img-container animated fadeIn"><img src="includes/images/acquaviva.png"></div>
+	</div>
+	<div class="col-md-3 col-xs-12">
+		<br>
+		<div style="margin: 0 auto;">
+		 	<ul id="countdown">
+				<div class="timer-area" >
+
+					<div class="col-md-4 col-xs-6 col-lg-6">
+						<li> <span class="days">00</span>
+							<p class="timeRefDays" style="color: white; font-family: 'Rubik Mono One', sans-serif;">Dias</p>
+						</li>
+					</div>
+					<div class="col-md-4 col-xs-6 col-lg-6">
+						<li> <span class="hours">00</span>
+							<p class="timeRefHours" style="color: white; font-family: 'Rubik Mono One', sans-serif;">Horas</p>
+						</li>
+					</div>
+					<div class="col-md-4 col-xs-6 col-lg-6">
+					<li> <span class="minutes">00</span>
+						<p class="timeRefMinutes" style="color: white; font-family: 'Rubik Mono One', sans-serif;">Minutos</p>
+					</li>
+					</div>
+					<div class="col-md-4 col-xs-6 col-lg-6">
+						<li> <span class="seconds">00</span>
+							<p class="timeRefSeconds" style="color: white; font-family: 'Rubik Mono One', sans-serif;">Segundos</p>
+						</li>
+					</div>
+		  		</ul>
+			</div>
+		
+		</div>
+	</div>
+</div>
+	</div>
+ </body>
+</html>
+
+<script>
+
+$(document).ready(function(){
+$("#countdown").countdown({
+date: "13 april 2017 12:00:00",
+format: "on"
+},
+
+function() {
+// callback function
+});
+});
+
+</script>
